@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 600px;
+  margin: 20px auto;
+}
+.container1 > a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #005f9d;
+}
+.container1 > p {
+  font-size: 14px;
+  font-weight: 450;
+  margin: 15px 0;
+  padding-top: 5px;
+}
+.border-content {
+  background-color: #fefaee;
+  border-left: 10px solid #e2cb4f;
+  width: 100%;
+  height: 200px;
+  padding: 10px 5px;
+}
+.border-content > p {
+  font-size: 14px;
+  margin-left: 10px;
+}
+.border-content > p:nth-child(1) {
+  margin-bottom: 10px;
+}
+.border-content > p:not(:first-child) {
+  padding-bottom: 15px;
+}

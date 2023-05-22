@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #fcfafa;
+}
+.container {
+  width: 300px;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.avatar {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border: 10px solid white;
+  border-radius: 50%;
+  box-shadow: 3px 5px 9px -1px rgba(0, 0, 0, 0.55);
+}
+.name {
+  margin-top: 15px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.ip {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  color: gray;
+  font-size: 25px;
+}

@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  background-color: #eee;
+}
+.container {
+  width: 600px;
+  height: 365px;
+  margin: 15px auto;
+  background-color: #fff;
+}
+.container > .content_1 {
+  margin-left: 10px;
+}
+.container > .content_1 > h3 {
+  font-size: 22px;
+  padding: 10px 0 20px 0;
+}
+.container > .content_1 > p {
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.container > .content_1 > p > span {
+  color: #bd1637;
+  background-color: #eee;
+}
+.content_1 > .text-center {
+  width: 580px;
+  border: 3px solid #037006;
+  text-align: center;
+  margin-bottom: 10px;
+  height: 65px;
+  line-height: 60px;
+}
+.container > .content_2 {
+  width: 580px;
+  height: 190px;
+  margin-left: 10px;
+  background-color: #e5e8ed;
+  border-radius: 5px;
+}
+.container > .content_2 > .container_1 {
+  margin-left: 10px;
+}
+.container_1 h4 {
+  padding: 10px 0;
+  font-size: 18px;
+}
+.container_1 .box {
+  background-color: #fff;
+  border-left: 4px solid #05ab70;
+  margin-right: 10px;
+}
+.container_1 > .box > p {
+  font-size: 13px;
+  margin-left: 10px;
+  padding: 10px 0;
+}
+.container_1 > .box > p > span:nth-of-type(1) {
+  color: #bd1637;
+}
+.container_1 > .box > p > span:nth-of-type(2),
+.container_1 > .box > p > span:nth-of-type(4) {
+  color: red;
+  margin-left: 15px;
+}
+.container_1 > .box > p > span:nth-of-type(3),
+.container_1 > .box > p > span:nth-of-type(5) {
+  color: blue;
+}
+.content_2 > .container_1 > .test {
+  background-color: #05ab70;
+  color: white;
+  width: 120px;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.content_2 > .container_1 > .test:hover {
+  background-color: #05ab71d0;
+}

@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 350px;
+  margin: 50px auto;
+}
+.main-img {
+  height: 260px;
+  position: relative;
+  background-image: url(https://image.vtc.vn/resize/th/upload/2022/08/13/2993316005760769374995078348633094847123812n-22352242.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+span {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  padding-left: 45px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.icon {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  background-color: #ff8000;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+  z-index: 3;
+}
+.container p {
+  width: 350px;
+  font-size: 23px;
+  font-weight: 600;
+  margin: 10px;
+}
